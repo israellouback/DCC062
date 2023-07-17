@@ -57,3 +57,4 @@ public class Process {
         this.size_memory = size_memory;
     }
 }
+  
