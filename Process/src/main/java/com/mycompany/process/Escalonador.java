@@ -12,11 +12,11 @@ public class Escalonador  {
     }
    
    //Métodos
-   public void addProcess(List<Process> listProcess,Process p1){
+   public void addProcess(Process p1){
        listProcess.add(p1);
        
    }
-   public List<Process> escalonadorAdmissao(List<Process> listProcess)
+   public List<Process> escalonadorAdmissao()
    {
      
        for(int i=0;i<listProcess.size();i++){
@@ -29,19 +29,19 @@ public class Escalonador  {
       return listProcess;
    }
    
-   public List<Process>  escalonadorMemoria(List<Process> listProcess)
+   public List<Process>  escalonadorMemoria()
    {
        
          return listProcess;
    }
    
-   public List<Process>  escalonadorCPU(List<Process> listProcess)
+   public List<Process>  escalonadorCPU()
    {
        
     return listProcess;
    }
    
-   public List<Process>  escalonador(List<Process> listProcess)
+   public List<Process>  escalonador()
    {
        
         return listProcess;
