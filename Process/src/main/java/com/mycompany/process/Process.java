@@ -56,9 +56,9 @@ public class Process {
     public void setSize_memory(int size_memory) {
         this.size_memory = size_memory;
     }
-      public static void main(String[] args){
-          Escalonador e1 = new Escalonador
-         
-    }
+//      public static void main(String[] args){
+//          Escalonador e1 = new Escalonador
+//
+//    }
 }
   
